@@ -1,6 +1,12 @@
 set number
-syntax on
 set mouse=a
+set noswapfile
+set expandtab
+set tabstop=2
+set encoding=utf-8
+scriptencoding utf-8
+
+syntax on
 
 map <Esc><Esc> :w<CR>
 map 1 ^
@@ -16,8 +22,3 @@ cabbrev wQ wq
 cabbrev Q! q!
 cabbrev q1 q!
 cabbrev Q1 q!
-
-set encoding=utf-8
-scriptencoding utf-8
-
-set noswapfile
