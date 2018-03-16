@@ -87,7 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias rt='tmux source-file ~/.tmux.conf; echo tmux config reloaded'
-alias rz='source ~/.zshrc; echo zsh config reloaded'
+alias rz='clear; source ~/.zshrc; echo zsh config reloaded'
 alias hidedotfiles='defaults write com.apple.finder AppleShowAllFiles -bool false; killall Finder'
 alias showdotfiles='defaults write com.apple.finder AppleShowAllFiles -bool true; killall Finder'
 alias fs='foreman start -p 3000'
